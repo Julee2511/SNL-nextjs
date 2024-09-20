@@ -60,3 +60,27 @@ export const portfolioinfo = [
 export const testimonial = [
    
 ];
+
+export const awarddetails = [
+    {
+        itemImage: "/images/awards/sofa.svg",
+        itemNmae: 'Sofa',
+        date: "25 Oct, 2024",
+        awardname: "Awwwards",
+        awardicon: "/images/awards/bitmap_1.svg"
+    },
+    {
+        itemImage: "/images/awards/KeyBoard.svg",
+        itemNmae: 'Sofa',
+        date: "25 Oct, 2024",
+        awardname: "Awwwards",
+        awardicon: "/images/awards/bitmap_2.svg"
+    },
+    {
+        itemImage: "/images/awards/Work Media.svg",
+        itemNmae: 'Sofa',
+        date: "25 Oct, 2024",
+        awardname: "Awwwards",
+        awardicon: "/images/awards/bitmap_3.svg"
+    },
+]

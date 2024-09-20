@@ -8,15 +8,13 @@ const Hero = () => {
    
     return (
         <section className="relative pb-20 pt-44 p-14 bg-custom-light-blue  dark:bg-darklight bg-cover text-white">
-
             <div className="absolute inset-0 bg-transparent"></div>
-
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md grid grid-cols-12 gap-4 relative z-10">
-                <div className="md:col-span-5 col-span-12 p-4 space-y-6 flex flex-col items-start justify-center" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                <div className="md:col-span-5 col-span-12 p-4 space-y-6 flex flex-col items-start justify-center">
                     <h1 className="text-black font-bold dark:text-white text-36 md:text-48">
-                           <span className="block">We help you</span>
-                           <span className="block">to build your</span>
-                           <span className="block">Business</span>
+                           We help you 
+                           to build your
+                           Business
                     </h1>
                     <p className="text-grey dark:text-white dark:text-opacity-70 text-12">
                     Discover, define, and dominate your market. elevate your                
