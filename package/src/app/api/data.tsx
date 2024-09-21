@@ -3,8 +3,9 @@ export const menuItems = [
     { name: "Agency", href: "#agency" },
     { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "Testimonials", href: "#testimonials" },
+    { name: "Awarddetails", href: "#awarddetails" },
     { name: "Blog", href: "/#blog" },
+    { name: "Videodetails", href: "/#videodetails" },
 ];
 
 export const Customers = [
@@ -39,27 +40,38 @@ export const Servicebox = [
    
 ]
 
-export const portfolioinfo = [
-    {
-        icon: "/images/portfolio/bp-4.png",
-     
-    },
-    {
-        icon: "/images/portfolio/bp-5.png",
-     
-    },
-    {
-        icon: "/images/portfolio/bp-6.png",
-     
-    },
-    {
-        icon: "/images/portfolio/bp-7.png",
-     
-    },
-]
-export const testimonial = [
+
+export const Videodetails = [
    
-];
+]
+
+export const portfoliocard = [
+    {
+        itemImage: "/images/portfolio/bp-4.png",
+        itemNmae: 'SOFA',
+        buttonname: 'Design',
+        aspect: 'aspect-w-1 aspect-h-1',
+    },
+    {
+        itemImage: "/images/portfolio/bp-5.png",
+        itemNmae: 'KeyBoard',
+        buttonname: 'Branding',
+        aspect: 'aspect-w-4 aspect-h-0',
+    },
+    {
+        itemImage: "/images/portfolio/bp-6.png",
+        itemNmae: 'Work Media',
+        buttonname: 'Illustration',
+        aspect: 'aspect-w-1 aspect-h-1',
+    },
+    {
+        itemImage: "/images/portfolio/bp-7.png",
+        itemNmae: 'DDDone',
+        buttonname: 'Motion',
+        aspect: 'aspect-w-1 aspect-h-1',
+    },
+   
+]
 
 export const awarddetails = [
     {
@@ -71,16 +83,16 @@ export const awarddetails = [
     },
     {
         itemImage: "/images/awards/KeyBoard.svg",
-        itemNmae: 'Sofa',
-        date: "25 Oct, 2024",
-        awardname: "Awwwards",
+        itemNmae: 'KeyBoard',
+        date: "19 Oct, 2024",
+        awardname: "CSS Design Awards",
         awardicon: "/images/awards/bitmap_2.svg"
     },
     {
         itemImage: "/images/awards/Work Media.svg",
-        itemNmae: 'Sofa',
-        date: "25 Oct, 2024",
-        awardname: "Awwwards",
+        itemNmae: 'Work Media',
+        date: "7 Oct, 2024",
+        awardname: "The FWA",
         awardicon: "/images/awards/bitmap_3.svg"
     },
 ]

@@ -84,7 +84,7 @@ const Header: React.FC = () => {
           </button>
           <Link
             href="#"
-            className="hidden lg:block bg-transparent border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white"
+            className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white"
             onClick={() => {
               setIsSignInOpen(true);
             }}

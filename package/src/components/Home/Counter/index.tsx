@@ -17,7 +17,7 @@ const Counter = () => {
                     ))}
                 </div>
             </div>
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md mb-8">
+            <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md mb-8">
                 <div className="grid md:grid-cols-12 items-center gap-7">
                  
                     <div className="md:col-span-6">
@@ -26,13 +26,13 @@ const Counter = () => {
                             ABOUT
                             </p>
                         </div>
-                        <h2 className="pt-1 font-bold dark:text-white text-36 pb-5">
-                      An Experience 
-                       Design Agency
+                        <h2 className="pt-1 font-bold dark:text-white text-36 pb-5 mr-48">
+                        An Experience 
+                        Design Agency
                         </h2>
                          <p className="mb-4">Provides a full service range</p>
 
-                        <p className="text-grey dark:text-white dark:text-opacity-70 text-16 font-semibold pb-1">
+                        <p className="text-grey dark:text-white dark:text-opacity-70 text-16 pb-1 mr-28">
                         We're west coast change-makers in a complex world, 
                          crafting purposeful and powerful brands with fluidity 
                         and freedom.
@@ -40,7 +40,7 @@ const Counter = () => {
                      
     
                         <div className="block mx-auto pt-9">
-                        <button   className="hidden lg:block bg-transparent border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Read More
+                        <button className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Read More
                         </button>
                         </div>
                     </div>

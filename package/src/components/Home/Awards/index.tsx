@@ -7,7 +7,7 @@ const awards = () => {
             <div className="py-16">
                 <p className="font-large md:text-40 text- font-bold text-midnight_text dark:text-white text-center mx-auto">Our Awards</p>
             </div>
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
+            <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md">
             {awarddetails.map((item, index) => (
                 <div key={index} className="py-4 border-t flex justify-between items-center">
                     <div className="flex gap-6 items-center">
@@ -16,7 +16,9 @@ const awards = () => {
                         </div>
                         <p className="text-21 text-black pb-0">{item.itemNmae}</p>
                     </div>
+                   
                     <p className="text-gray-400 text-16">{item.date}</p>
+                   
                     <div className="flex gap-6 items-center">
                         <p>{item.awardname}</p>
                         <img src={item.awardicon} alt={item.awardname} />

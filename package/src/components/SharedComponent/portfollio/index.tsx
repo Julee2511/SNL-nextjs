@@ -5,12 +5,12 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="py-24 dark:bg-darkmode bg-midnight_text">
             <div className="text-center lg:px-0 px-8">
-                <div className="flex gap-2 items-center justify-center" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                <div className="flex gap-2 items-center justify-center">
                     <span className="font-medium text-white text-14 dark:text-white dark:text-opacity-50">PORTFOLIO</span>
-                </div>
+                </div>        
+             
+              <h1 className="font-large font-bold text-32 text-white dark:text-white dark:text-opacity-50 mt-6">LATEST WORK</h1>  
               
-              <h1 className="font-large font-bold text-32 text-white dark:text-white dark:text-opacity-50 mt-6">LATEST WORK</h1>
-                
                 <div className="flex justify-center items-center mt-8 text-white space-x-16">
                     <div className="relative">
                         <span>Show All</span>
