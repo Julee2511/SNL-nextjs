@@ -13,7 +13,7 @@ const Blog: React.FC = () => {
                 <div className="flex items-baseline justify-between flex-wrap">
                   
                     <h2 className="sm:mb-11 mb-3 text-36 font-bold text-midnight_text dark:text-white" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Latest Blog <br/> Articles</h2>
-                    <a href="#learn-more"  className="hidden lg:block bg-transparent border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Discover All</a>
+                    <a href="#learn-more"  className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Discover All</a>
                  
                 </div>
                 <div className="grid grid-cols-12 gap-7">
@@ -25,6 +25,7 @@ const Blog: React.FC = () => {
                 </div>
             </div>
         </section>
+        
     );
 }
 

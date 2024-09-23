@@ -22,18 +22,18 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
                         />
                     </Link>
                 </div>
-              
+               
                 <div>
                     <h3>
                         <Link
                             href={`/blog/${slug}`}
-                            className="mb-4 inline-block font-semibold text-dark text-black hover:text-primary dark:text-white dark:hover:text-primary text-22"
+                            className="mb-4 inline-block font-semibold text-dark text-black hover:text-primary dark:text-white dark:hover:text-primary text-24"
                         >
                             {title}
                         </Link>
                     </h3>
-                    <span className="text-14 font-semibold leading-loose text-SereneGray">
-                       
+                    <span className="text-14 font-semibold leading-loose text-SereneGray text-gray-400">
+                   {format(new Date(date), "dd MMM yyyy")}
                     </span>
                 </div>
             </div>

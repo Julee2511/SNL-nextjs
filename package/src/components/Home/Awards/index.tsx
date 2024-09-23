@@ -16,9 +16,9 @@ const awards = () => {
                         </div>
                         <p className="text-21 text-black pb-0">{item.itemNmae}</p>
                     </div>
-                   
+                    <div className="flex justify-center">
                     <p className="text-gray-400 text-16">{item.date}</p>
-                   
+                    </div>
                     <div className="flex gap-6 items-center">
                         <p>{item.awardname}</p>
                         <img src={item.awardicon} alt={item.awardname} />
@@ -26,6 +26,8 @@ const awards = () => {
                 </div>
                 
             ))}
+                 <div className="border-b"></div>
+
             <div className="text-center py-14">
                     <span className="text-gray-500 font-roboto text-lg">Want more awards?</span>
                     <a href="#" className="text-black hover:text-primary font-roboto  text-lg ml-2">Explore Now</a>

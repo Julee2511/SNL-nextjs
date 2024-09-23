@@ -13,8 +13,8 @@ const PortfolioCard = () => {
        <div className="container px-5 mx-auto lg:max-w-screen-xl md:max-w-screen-md">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {portfoliocard.map((item, index) => (
-                    <div key={index} className={`relative ${item.aspect}`}>
-                        <img src={item.itemImage} alt={item.itemNmae} className="w-full h-96 rounded-lg"/>
+                    <div key={index} className={`relative ${item.width}`}>
+                        <img src={item.itemImage} alt={item.itemNmae} className="w-50 h-96 rounded-lg"/>
                         <p className="absolute bottom-12 left-6 text-white text-2xl font-bold">{item.itemNmae}</p>
                         <p className="absolute bottom-24 left-6 bg-white text-black px-3 py-1 rounded-full text-sm">{item.buttonname}</p>
                     </div>

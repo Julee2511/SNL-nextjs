@@ -5,7 +5,7 @@ export const menuItems = [
     { name: "Portfolio", href: "#portfolio" },
     { name: "Awarddetails", href: "#awarddetails" },
     { name: "Blog", href: "/#blog" },
-    { name: "Videodetails", href: "/#videodetails" },
+   
 ];
 
 export const Customers = [
@@ -41,34 +41,31 @@ export const Servicebox = [
 ]
 
 
-export const Videodetails = [
-   
-]
-
 export const portfoliocard = [
     {
         itemImage: "/images/portfolio/bp-4.png",
         itemNmae: 'SOFA',
         buttonname: 'Design',
-        aspect: 'aspect-w-1 aspect-h-1',
+        width: 'max-content',
     },
     {
         itemImage: "/images/portfolio/bp-5.png",
         itemNmae: 'KeyBoard',
         buttonname: 'Branding',
-        aspect: 'aspect-w-4 aspect-h-0',
+        
     },
+    
     {
         itemImage: "/images/portfolio/bp-6.png",
         itemNmae: 'Work Media',
         buttonname: 'Illustration',
-        aspect: 'aspect-w-1 aspect-h-1',
+       
     },
     {
         itemImage: "/images/portfolio/bp-7.png",
         itemNmae: 'DDDone',
         buttonname: 'Motion',
-        aspect: 'aspect-w-1 aspect-h-1',
+        width: 'max-content',
     },
    
 ]
@@ -96,3 +93,4 @@ export const awarddetails = [
         awardicon: "/images/awards/bitmap_3.svg"
     },
 ]
+
