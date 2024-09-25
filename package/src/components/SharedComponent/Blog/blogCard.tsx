@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import { Blog } from "@/types/blog";
-import { format } from "date-fns";
+import { format, sub } from "date-fns";
 import Link from "next/link";
 
 const BlogCard = ({ blog }: { blog: Blog }) => {
@@ -22,7 +22,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
                         />
                     </Link>
                 </div>
-               
+
                 <div>
                     <h3>
                         <Link
@@ -36,8 +36,11 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
                    {format(new Date(date), "dd MMM yyyy")}
                     </span>
                 </div>
+                
             </div>
+            
         </>
+        
     );
 };
 

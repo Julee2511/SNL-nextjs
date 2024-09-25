@@ -23,15 +23,15 @@ const Hero = () => {
                   <a href="#learn-more" className="py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 px-8">Schedule a Call</a>  
                 </div>
 
-                <div className="md:col-span-7 col-span-12 relative">
+                <div className="md:col-span-7 col-span-12">
                     <Image
                         src="/images/hero/hero-image.png"
                         alt="hero-image"
-                        width={650}
+                        width={9050}
                         height={550}
                         quality={100}
                         className="-mt-32"
-                        style={{ width: '100%', height: '142%' }}
+                        style={{ width: '850%', height: '142%' }}
                     />
                 </div>
             </div>

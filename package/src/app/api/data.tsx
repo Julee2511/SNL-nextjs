@@ -5,6 +5,7 @@ export const menuItems = [
     { name: "Portfolio", href: "#portfolio" },
     { name: "Awarddetails", href: "#awarddetails" },
     { name: "Blog", href: "/#blog" },
+    { name: "Footer", href: "/#footer" },
    
 ];
 
@@ -94,3 +95,44 @@ export const awarddetails = [
     },
 ]
 
+
+export const blog = [
+    {
+        itemNmae: 'Stories',
+        itemImage: "/images/blog/blog_1.png",
+        itemdetail: "Agency is a business you hire to outsource",
+        date: "5 Nov, 2024",
+    },
+    {
+        itemNmae: 'Design',
+        itemImage: "/images/blog/blog_2.png",
+        itemdetail: "Outsource your digital marketing efforts",
+        date: "29 Oct, 2024",
+    },
+    {
+        itemNmae: 'Marketing',
+        itemImage: "/images/blog/blog_3.png",
+        itemdetail: "Your business with a variety of digital",
+        date: "21 Oct, 2024",
+    },
+]
+
+
+export const footer = [
+    {
+        icon: "/images/footer/linkedin.svg",
+     
+    },
+    {
+        icon: "/images/footer/Facebook.svg",
+        
+    },
+    {
+        icon: "/images/footer/Instagram.svg",
+       
+    },
+    {
+        icon: "/images/footer/Youtube.svg",
+       
+    },
+]

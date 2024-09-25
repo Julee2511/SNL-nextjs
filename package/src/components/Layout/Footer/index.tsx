@@ -1,10 +1,13 @@
 import React, { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { footer } from "@/app/api/data";
 
 const Footer: FC = () => {
   return (
+    
     <footer className="bg-darkmode relative z-[1]  text-white">
+      
      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md py-28 grid grid-cols-1 md:grid-cols-12 gap-6">
  
   <div className="md:col-span-6">
@@ -44,10 +47,20 @@ const Footer: FC = () => {
 <div className="border-t  border-gray-300 p-4">
   </div>
   </div>
-
-  <div className="container mx-auto lg:max-w-screen-xl  py-10 grid-cols-12 md:grid-cols-12 ">
-  <div className="flex justify-between">© Copyright 2024. Designed by GradaStudio.</div>
+  <div className="container mx-auto lg:max-w-screen-xl py-10">
+  <div className="flex justify-between items-center mb-2">
+    <p className="text-white">© Copyright 2024. Designed by GradaStudio.</p>
+    <div className="flex space-x-4">
+      {footer.map((item, index) => (
+        <div key={index} className="flex items-center justify-center">
+          <img src={item.icon} alt={item.icon} className="w-full h-full" />
+        </div>
+      ))}
+    </div>
   </div>
+</div>
+
+ 
 
     </footer>
   );
