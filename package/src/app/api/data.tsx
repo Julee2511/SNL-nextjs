@@ -47,26 +47,30 @@ export const portfoliocard = [
         itemImage: "/images/portfolio/bp-4.png",
         itemNmae: 'SOFA',
         buttonname: 'Design',
-        width: 'max-content',
+        width: '470',
+        height: '0',
     },
     {
         itemImage: "/images/portfolio/bp-5.png",
         itemNmae: 'KeyBoard',
         buttonname: 'Branding',
-        
+        width: '1700',
+        height: '200',
     },
     
     {
         itemImage: "/images/portfolio/bp-6.png",
         itemNmae: 'Work Media',
         buttonname: 'Illustration',
-       
+        width: '1000',
+        height: '50',
     },
     {
         itemImage: "/images/portfolio/bp-7.png",
         itemNmae: 'DDDone',
         buttonname: 'Motion',
-        width: 'max-content',
+        width: '400',
+        height: '50',
     },
    
 ]

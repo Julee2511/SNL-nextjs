@@ -11,8 +11,8 @@ const Blog: React.FC = () => {
     return (
         <section className="flex flex-wrap justify-center py-24 dark:bg-darkmode" id="blog">
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
-            <p className="font-medium text-primary text-14 dark:text-white dark:text-opacity-50 pb-5">
-            Our Blog
+            <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
+            Our blog
                             </p>
                 <div className="flex items-baseline justify-between flex-wrap">
                     <h2 className="sm:mb-11 mb-3 text-36 font-bold text-midnight_text dark:text-white" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Latest Blog <br/> Articles</h2>

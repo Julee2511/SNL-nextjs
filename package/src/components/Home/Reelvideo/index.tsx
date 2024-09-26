@@ -24,8 +24,8 @@ const Reelvideo = () => {
                  
                     <div className="md:col-span-5 mt-10 mr-10">
                         <div className="flex gap-2 items-center">  
-                            <p className="font-medium text-primary text-14 dark:text-white dark:text-opacity-50 pb-5">
-                            VIDEO REEL
+                            <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
+                           video reel
                             </p>
                         </div>
                         <h2 className="pt-1 text-3xl font-bold dark:text-white pb-5 mr-16">
@@ -42,8 +42,8 @@ const Reelvideo = () => {
                 <div className="grid md:grid-cols-12  mt-8">
   <div className="md:col-span-4">
     <div className="flex items-center mt-24">  
-      <p className="font-medium text-primary text-[14px] dark:text-white dark:text-opacity-50 pb-5">
-        FEATURES
+      <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
+       features
       </p>
     </div>
     
@@ -59,7 +59,7 @@ const Reelvideo = () => {
   <div className="md:col-span-8 mt-4">
     <div className="flex justify-center items-center">
       <div className="flex">
-        <div className="border border-blue-500 rounded-tl-lg rounded-bl-lg  rounded-tr-lg  flex flex-col items-start bg-white  h-72 w-72 p-6">
+        <div className="border border-blue-500 rounded-tl-lg rounded-bl-lg  rounded-tr-lg  flex flex-col items-start bg-custom-light-blue  h-72 w-72 p-6">
           <div className="flex items-center justify-center w-12 h-12 mb-8 mt-9">
           <Image
                             src="/images/Reelvideo/cardicon.svg"

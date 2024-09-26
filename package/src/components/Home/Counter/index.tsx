@@ -22,8 +22,8 @@ const Counter = () => {
                  
                     <div className="md:col-span-6">
                         <div className="flex gap-2 items-center">  
-                            <p className="font-medium text-primary text-14 dark:text-white dark:text-opacity-50 pb-5">
-                            ABOUT
+                            <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
+                            about
                             </p>
                         </div>
                         <h2 className="pt-1 font-bold dark:text-white text-36 pb-5 mr-48">

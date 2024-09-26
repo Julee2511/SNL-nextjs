@@ -25,14 +25,14 @@ const Services = () => {
     </div>
     <div className="container lg:max-w-screen-xl md:max-w-screen-md grid grid-cols-12 gap-4 py-20 ">
 
-                <div className="md:col-span-7 col-span-12 mb-8 md:pr-28">
+                <div className="md:col-span-6 col-span-12 mb-8 md:pr-28">
                    
-            <h4 className="text-primary text-sm font-semibold mb-4">HOW WE WORK</h4>
-            <h1 className="text-3xl font-bold text-gray-900 mb-8 mr-48">
+            <h4 className="text-primary text-16 font-semibold mb-4 uppercase">how we work</h4>
+            <h1 className="text-3xl font-bold text-gray-900 mb-8 mr-36">
            Making Your Projects 
             Look Awesome 
                  </h1>
-            <p className="text-gray-500 mb-9 mr-32">
+            <p className="text-gray-500 mb-9 mr-6">
             We're west coast change-makers in a complex world,
             crafting purposeful and powerful brands with fluidity and
              freedom.
@@ -41,7 +41,7 @@ const Services = () => {
             <button className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Read More
             </button>
         </div>
-        <div className="md:col-span-5 col-span-12 mt-7">
+        <div className="md:col-span-6 col-span-12 mt-7">
             <div className="flex items-start">
                 <span className="text-blue-500 text-4xl font-bold mr-6 mb-8">1</span>
                 <p className="text-gray-800 text-lg mb-20 mt-1">Full service range including</p>
