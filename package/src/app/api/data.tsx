@@ -128,15 +128,15 @@ export const footer = [
      
     },
     {
-        icon: "/images/footer/Facebook.svg",
+       icon: "/images/footer/facebook.svg",
         
     },
     {
-        icon: "/images/footer/Instagram.svg",
+        icon: "/images/footer/instagram.svg",
        
     },
     {
-        icon: "/images/footer/Youtube.svg",
+        icon: "/images/footer/youtube.svg",
        
     },
 ]
