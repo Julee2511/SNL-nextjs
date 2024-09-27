@@ -41,40 +41,39 @@ export const Servicebox = [
    
 ]
 
-
 export const portfoliocard = [
     {
         itemImage: "/images/portfolio/bp-4.png",
         itemNmae: 'SOFA',
         buttonname: 'Design',
-        width: '470',
+        width: '500',
         height: '0',
     },
     {
         itemImage: "/images/portfolio/bp-5.png",
         itemNmae: 'KeyBoard',
         buttonname: 'Branding',
-        width: '1700',
-        height: '200',
+        width: '710',
+        height: '100',
     },
-    
+]
+export const portfolio1 = [
     {
         itemImage: "/images/portfolio/bp-6.png",
         itemNmae: 'Work Media',
         buttonname: 'Illustration',
-        width: '1000',
-        height: '50',
+        width: '710',
+        height: '100',
     },
     {
         itemImage: "/images/portfolio/bp-7.png",
         itemNmae: 'DDDone',
         buttonname: 'Motion',
-        width: '400',
-        height: '50',
+        width: '500',
+        height: '0',
     },
    
 ]
-
 export const awarddetails = [
     {
         itemImage: "/images/awards/sofa.svg",

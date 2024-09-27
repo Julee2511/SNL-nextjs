@@ -9,7 +9,7 @@ const Portfolio = () => {
                     <span className="font-medium text-white text-16 dark:text-white dark:text-opacity-50 uppercase"> portfolio</span>
                 </div>        
              
-              <h1 className="font-large font-bold text-32 text-white dark:text-white dark:text-opacity-50 mt-6 uppercase">latest work</h1>  
+              <h1 className="font-large font-extrabold text-white dark:text-white dark:text-opacity-50 mt-6 text-56">Latest Work</h1>  
               
                 <div className="flex justify-center items-center mt-8 text-white space-x-16">
                     <div className="relative">

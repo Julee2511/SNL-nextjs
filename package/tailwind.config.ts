@@ -73,6 +73,12 @@ const config: Config = {
             lineHeight: "5.375rem",
           },
         ],
+        56: [
+          "3.625rem",
+          {
+            lineHeight: "5.375rem",
+          },
+        ],
         40: [
           "2.5rem",
           {
@@ -150,6 +156,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+           
       },
     },
   },

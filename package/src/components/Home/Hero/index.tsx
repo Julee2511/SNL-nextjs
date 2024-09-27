@@ -33,6 +33,7 @@ const Hero = () => {
                         className="-mt-32"
                         style={{ width: '850%', height: '142%' }}
                     />
+                   
                 </div>
             </div>
         </section>

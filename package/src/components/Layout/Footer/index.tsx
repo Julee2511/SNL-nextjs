@@ -6,7 +6,7 @@ import { footer } from "@/app/api/data";
 const Footer: FC = () => {
   return (
     
-    <footer className="bg-darkmode relative z-[1]  text-white">
+    <footer className="bg-darkmode relative z-[1]  text-white" style={{ backgroundImage:'url(/images/footer/estate-bg.jpg)' }}>
       
      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md py-28 grid grid-cols-1 md:grid-cols-12 gap-6">
  
@@ -59,9 +59,6 @@ const Footer: FC = () => {
     </div>
   </div>
 </div>
-
- 
-
     </footer>
   );
 };
