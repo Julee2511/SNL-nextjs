@@ -10,7 +10,7 @@ const Blog: React.FC = () => {
 
     return (
         <section className="flex flex-wrap justify-center py-24 dark:bg-darkmode" id="blog">
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
+            <div className="container  px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm">
             <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
             Our blog
                             </p>

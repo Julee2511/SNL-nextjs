@@ -12,22 +12,30 @@ import { portfolio1 } from "@/app/api/data";
 const PortfolioCard = () => {
     return (
         <section id="portfolio" className="py-24 dark:bg-darkmode">
-       <div className="container px-5 mx-auto lg:max-w-screen-xl md:max-w-screen-md">
-            <div className="flex grid-cols-1 sm:grid-cols-2 gap-8">
+       <div className="container px-5 mx-auto lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm">
+            <div className="md:flex grid-cols-1 sm:grid-cols-1 gap-8">
                 {portfoliocard.map((item, index) => (
                     <div key={index} className={`relative ${item.width}`}>
-                        <img src={item.itemImage} alt={item.itemNmae} width={item.width}  height={item.height} className="rounded-lg"/>
-                        <p className="absolute bottom-24 left-12 bg-white text-black px-4 py-1 mr-7 rounded-full text-16 mb-5">{item.buttonname}</p>
-                        <p className="absolute bottom-9 left-12 text-white text-40 font-bold">{item.itemNmae}</p>
+                        <img src={item.itemImage} 
+                         alt={item.itemNmae} 
+                         width={item.width} 
+                         height={item.height}
+                         className="rounded-lg"/>
+                        <p className="absolute bottom-24 md:left-12 sm:left-0 bg-white text-black px-4 py-1 mr-7 rounded-full text-16 mb-5">{item.buttonname}</p>
+                        <p className="absolute bottom-9 left-12 text-white md:text-40 sm:text-20 font-bold">{item.itemNmae}</p>
                     </div>
                 ))}
             </div>
-            <div className="mt-8 flex grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="mt-8 md:flex grid-cols-1 sm:grid-cols-1 gap-8">
                 {portfolio1.map((item, index) => (
                     <div key={index} className={`relative ${item.width}`}>
-                        <img src={item.itemImage} alt={item.itemNmae} width={item.width}  height={item.height} className="rounded-lg"/>
-                        <p className="absolute bottom-24 left-12 bg-white text-black px-4 py-1 rounded-full text-16 mb-5">{item.buttonname}</p>
-                        <p className="absolute bottom-9 left-12 text-white text-40 font-bold">{item.itemNmae}</p>
+                        <img src={item.itemImage} 
+                         alt={item.itemNmae} 
+                         width={item.width} 
+                         height={item.height} 
+                         className="rounded-lg"/>
+                        <p className="absolute md:bottom-24 sm:bottom-8 left-12 bg-white text-black px-4 py-1 rounded-full text-16 mb-5">{item.buttonname}</p>
+                        <p className="absolute bottom-9 left-12 text-white md:text-40 sm:text-20 font-bold">{item.itemNmae}</p>
                     </div>
                 ))}
             </div>

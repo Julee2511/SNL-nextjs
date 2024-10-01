@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Counter = () => {
     return (
-        <section className="md:py-24 py-1 dark:bg-darkmode">
-            <p className="text-center mb-8 text-secondary">We have 23k+ Satisfied & Trusted Customers</p>
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
+        <section className="md:py-24  py-1 dark:bg-darkmode">
+            <p className="text-center text-18  mb-8 sm:mb-8 text-secondary">We have 23k+ Satisfied & Trusted Customers</p>
+            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-md">
                 <div className="flex flex-wrap items-center md:justify-between justify-center md:gap-0 gap-9 mx-8">
                     {Customers.map((item, index) => (
                         <div
@@ -20,19 +20,19 @@ const Counter = () => {
             <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md mb-8">
                 <div className="grid md:grid-cols-12 items-center gap-7">
                  
-                    <div className="md:col-span-6">
+                    <div className="md:col-span-6 sm:col-span-6">
                         <div className="flex gap-2 items-center">  
-                            <p className="font-medium text-primary text-16 dark:text-white dark:text-opacity-50 pb-5 uppercase">
+                            <p className="font-medium  text-primary md:text-16 dark:text-white dark:text-opacity-50 mb:pb-5 sm:pb-6 uppercase">
                             about
                             </p>
                         </div>
-                        <h2 className="pt-1 font-bold dark:text-white text-36 pb-5 mr-48">
+                        <h2 className="md:pt-1  sm:pt-4 font-bold dark:text-white sm:text-36  md:text-36 pb-5 md:mr-48 sm:mr-0">
                         An Experience 
                         Design Agency
                         </h2>
                          <p className="mb-4">Provides a full service range</p>
 
-                        <p className="text-grey dark:text-white dark:text-opacity-70 text-16 pb-1 mr-28">
+                        <p className="text-grey dark:text-white dark:text-opacity-70 sm:text-8 md:text-16 pb-1 sm:mr-0 md:mr-28">
                         We're west coast change-makers in a complex world, 
                          crafting purposeful and powerful brands with fluidity 
                         and freedom.

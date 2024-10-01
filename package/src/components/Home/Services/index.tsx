@@ -9,19 +9,21 @@ const Services = () => {
         <section className="bg-white dark:bg-darklight">
             <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md">
         
-        <div className="grid grid-cols-3  border border-primary rounded-lg mx-0">
-            <div className="flex flex-col ml-12 py-8 border-r border-primary">
-                <span className="text-4xl font-bold text-gray-900 mb-2">42%</span>
-                <span className="text-gray-500">Years of experience</span>
-            </div>
-            <div className="flex flex-col  border-r py-8 border-primary bg-custom-light-blue">
-                <span className="text-4xl ml-12 font-bold text-gray-900 mb-2">73+</span>
-                <span className="text-gray-500 ml-14">Agency members</span>
-            </div>
-            <div className="flex flex-col ml-12 py-8">
-                <span className="text-4xl font-bold text-gray-900 mb-2">5.000</span>
-                <span className="text-gray-500">Projects complete </span>
-            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 border border-primary rounded-lg mx-0">
+    <div className="flex flex-col py-8 border-b md:border-b-0 md:border-r border-primary md:ml-12">
+        <span className="text-4xl font-bold text-gray-900 mb-2 text-center md:text-left">42%</span>
+        <span className="text-gray-500 text-center md:text-left">Years of experience</span>
+    </div>
+    <div className="flex flex-col py-8 border-b md:border-b-0 md:border-r border-primary bg-custom-light-blue">
+        <span className="text-4xl font-bold text-gray-900 mb-2 text-center md:text-left md:ml-12">73+</span>
+        <span className="text-gray-500 text-center md:text-left md:ml-12">Agency members</span>
+    </div>
+    <div className="flex flex-col py-8 md:ml-12">
+        <span className="text-4xl font-bold text-gray-900 mb-2 text-center md:text-left">5,000</span>
+        <span className="text-gray-500 text-center md:text-left">Projects complete</span>
+    </div>
+
+
     </div>
     <div className="container lg:max-w-screen-xl md:max-w-screen-md grid grid-cols-12 gap-4 py-20 ">
 

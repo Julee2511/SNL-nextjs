@@ -56,7 +56,7 @@ const Header: React.FC = () => {
     <header
       className={`fixed h-24 top-0 py-1 z-50 w-full bg-transparent transition-all ${sticky ? "shadow-lg bg-white dark:bg-darklight" : "shadow-none"}`}
     >
-      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4 py-6">
+      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-start px-4 py-6">
         <p className="text-24 font-bold mr-11">SNL</p>
         <nav className="hidden lg:flex flex-grow items-start justify-start space-x-8 ml-11">
           {headerData.map((item, index) => (
@@ -93,7 +93,7 @@ const Header: React.FC = () => {
           </Link>
           {isSignInOpen && (
             <div ref={signInRef} className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
-              <div className="relative mx-auto w-full max-w-md overflow-hidden rounded-lg bg-white px-8 py-14 text-center dark:bg-darklight">
+              <div className="relative mx-10 w-full max-w-md overflow-hidden rounded-lg bg-white px-8 py-14 text-center dark:bg-darklight">
                 <button
                   onClick={() => setIsSignInOpen(false)}
                   className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 dark:invert"
