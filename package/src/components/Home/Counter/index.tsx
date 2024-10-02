@@ -17,7 +17,7 @@ const Counter = () => {
                     ))}
                 </div>
             </div>
-            <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md mb-8">
+            <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md mb-8 sm:max-w-screen-sm">
                 <div className="grid md:grid-cols-12 items-center gap-7">
                  
                     <div className="md:col-span-6 sm:col-span-6">
@@ -40,8 +40,18 @@ const Counter = () => {
                      
     
                         <div className="block mx-auto pt-9">
-                        <button className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">Read More
-                        </button>
+                        <button className="hidden lg:flex items-center bg-transparent border-2 dark:text-white dark:border-white border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">
+                           <span>Read More</span>
+                              <Image
+                               src="/images/hero/arrow.svg"
+                               alt="hero-image"
+                               width={24}
+                               height={24}
+                               quality={100}
+                               className="ml-2"
+                                />
+                          </button>
+
                         </div>
                     </div>
     

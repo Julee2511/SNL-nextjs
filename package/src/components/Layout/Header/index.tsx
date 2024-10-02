@@ -7,6 +7,8 @@ import HeaderLink from "../Header/Navigation/HeaderLink";
 import MobileHeaderLink from "../Header/Navigation/MobileHeaderLink";
 import Signin from "@/components/Auth/SignIn";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
+
 
 const Header: React.FC = () => {
   const pathUrl = usePathname();
@@ -83,14 +85,23 @@ const Header: React.FC = () => {
             </svg>
           </button>
           <Link
-            href="#"
-            className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white"
-            onClick={() => {
-              setIsSignInOpen(true);
-            }}
-          >
-           Get a Quote
-          </Link>
+  href="#"
+  className="hidden lg:flex items-center bg-transparent border-2 dark:text-white dark:border-white border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white"
+  onClick={() => {
+    setIsSignInOpen(true);
+  }}
+>
+  Get a Quote
+  <Image
+    src="/images/hero/arrow.svg"
+    alt="hero-image"
+    width={24}
+    height={24}
+    quality={100}
+    className="ml-2"
+  />
+</Link>
+
           {isSignInOpen && (
             <div ref={signInRef} className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
               <div className="relative mx-10 w-full max-w-md overflow-hidden rounded-lg bg-white px-8 py-14 text-center dark:bg-darklight">

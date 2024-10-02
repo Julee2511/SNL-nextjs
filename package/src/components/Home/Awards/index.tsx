@@ -7,8 +7,7 @@ const awards = () => {
             Our Awards
           </p>
         </div>
-  
-        <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md">
+        <div className="container px-4 mx-auto lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm">
           <table className="min-w-full">
             <tbody>
               {awarddetails.map((item, index) => (
@@ -16,7 +15,7 @@ const awards = () => {
                   <td className="py-4">
                     <div className="flex gap-6 items-center">
                       <img src={item.itemImage} alt={item.itemNmae} />
-                      <p className="text-21 text-black">{item.itemNmae}</p>
+                      <p className="text-21  dark:text-white">{item.itemNmae}</p>
                     </div>
                   </td>
   
@@ -37,7 +36,7 @@ const awards = () => {
   
           <div className="text-center py-14">
             <span className="text-gray-500 font-roboto text-lg">Want more awards?</span>
-            <a href="#" className="text-black hover:text-primary font-roboto text-lg ml-2">
+            <a href="#" className=" hover:text-primary font-roboto text-lg ml-2">
               Explore Now
             </a>
           </div>

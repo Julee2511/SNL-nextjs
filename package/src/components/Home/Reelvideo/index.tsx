@@ -51,9 +51,17 @@ const Reelvideo = () => {
       Long run, and work as an extension of the merchant's team.
     </p>
     
-    <button className="hidden lg:block bg-transparent border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">
-      Read More
-    </button>
+    <button className="hidden lg:flex items-center bg-transparent border-2 dark:text-white dark:border-white border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white">
+                           <span>Read More</span>
+                              <Image
+                               src="/images/hero/arrow.svg"
+                               alt="hero-image"
+                               width={24}
+                               height={24}
+                               quality={100}
+                               className="ml-2"
+                                />
+                          </button>
   </div>
   
   <div className="md:col-span-8 mt-4">
