@@ -30,6 +30,16 @@ const Hero = () => {
                     Discover, define, and dominate your market. elevate your                
                     identity with creative excellence, guiding your brand.
                     </p> 
+                    <Image
+                        src="/images/hero/bg-1.png"
+                        alt="bg-1"
+                        width={120}
+                        height={120}
+                        quality={100}
+                        style={{ width: '40%', height: '10%' }}
+                        className=""
+                    />
+                  
                     <a href="#learn-more" className="flex items-center py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 px-8">
                              Schedule a Call
                                <Image
