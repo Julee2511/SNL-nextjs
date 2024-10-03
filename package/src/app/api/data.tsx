@@ -131,9 +131,12 @@ export const footer = [
         
     },
     {
-      icon:"/images/footer/instagram.svg",
-    },
-    {
-     icon:"/images/footer/youtube.svg",   
-    },
+        icon: "/images/footer/instagram.svg",
+  
+      },
+  
+      {
+       icon: "/images/footer/youtube.svg",  
+        
+      },
 ]
